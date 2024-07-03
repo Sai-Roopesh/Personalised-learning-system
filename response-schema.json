@@ -1,21 +1,17 @@
 {
-    "type": "array",
+    "type": "ARRAY",
     "items": {
-    "type": "object",
-    "properties": {
-        "question": {
-            "type": "string"
+        "type": "OBJECT",
+        "properties": {
+            "question-number": {"type": "NUMBER"},
+            "question": {"type": "STRING"},
+            "options": {
+                "type": "ARRAY",
+                "items": {"type": "STRING"}
+            },
+            "answer": {"type": "STRING"},
+            "difficulty": {"type": "STRING"}
         },
-        "options": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        },
-        "answer": {
-            "type": "string"
-        }
-    },
-    "required": ["question", "options", "answer"]
+        "required": ["question-number", "question", "options", "answer","difficulty"]
     }
 }

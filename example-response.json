@@ -1,0 +1,238 @@
+[
+  {
+    "answer": "To increase productivity, improve software quality, and enhance job satisfaction for engineers",
+    "difficulty": "easy",
+    "options": [
+      "To increase productivity, improve software quality, and enhance job satisfaction for engineers",
+      "To reduce software development time and minimize user involvement",
+      "To eliminate the need for testing and focus solely on coding",
+      "To solely prioritize customer satisfaction over all other factors"
+    ],
+    "question": "What are the primary goals of Software Engineering?",
+    "question-number": 1
+  },
+  {
+    "answer": "Software is developed or engineered, while hardware is manufactured",
+    "difficulty": "easy",
+    "options": [
+      "Software is developed or engineered, while hardware is manufactured",
+      "Software wears out over time, just like hardware",
+      "Software is typically manufactured in mass quantities",
+      "Software can be easily replaced if it fails, unlike hardware"
+    ],
+    "question": "What distinguishes the creation of software from hardware?",
+    "question-number": 2
+  },
+  {
+    "answer": "System software",
+    "difficulty": "easy",
+    "options": [
+      "System software",
+      "Application software",
+      "Embedded software",
+      "Web applications"
+    ],
+    "question": "What type of software serves as a bridge between hardware and other software applications, such as operating systems?",
+    "question-number": 3
+  },
+  {
+    "answer": "A software development approach emphasizing iterative cycles and risk management",
+    "difficulty": "medium",
+    "options": [
+      "A software development approach emphasizing iterative cycles and risk management",
+      "A linear and sequential software development model",
+      "A software testing technique focused on identifying the root causes of defects",
+      "A programming language used for web application development"
+    ],
+    "question": "What does the Spiral Model represent in software development?",
+    "question-number": 4
+  },
+  {
+    "answer": "False",
+    "difficulty": "easy",
+    "options": [
+      "True",
+      "False"
+    ],
+    "question": "Is a software process considered rigid and inflexible, strictly dictating every step of development?",
+    "question-number": 5
+  },
+  {
+    "answer": "Communication, Planning, Modeling, Construction, Deployment",
+    "difficulty": "easy",
+    "options": [
+      "Communication, Planning, Modeling, Construction, Deployment",
+      "Design, Coding, Testing, Release, Maintenance",
+      "Requirement Gathering, System Design, Implementation, Integration, Deployment",
+      "Analysis, Prototyping, Development, Evaluation, Support"
+    ],
+    "question": "What are the five core framework activities within a generic software process model?",
+    "question-number": 6
+  },
+  {
+    "answer": "Legacy software",
+    "difficulty": "easy",
+    "options": [
+      "Modern software",
+      "Legacy software",
+      "Agile software",
+      "Waterfall software"
+    ],
+    "question": "What term describes older software systems that are typically crucial for business operations but may be costly to maintain?",
+    "question-number": 7
+  },
+  {
+    "answer": "Unpredictable load",
+    "difficulty": "medium",
+    "options": [
+      "Network intensiveness",
+      "Concurrency",
+      "Unpredictable load",
+      "Data driven"
+    ],
+    "question": "The number of users accessing a web application can fluctuate significantly. What key attribute of WebApps does this describe?",
+    "question-number": 8
+  },
+  {
+    "answer": "Formal Methods Model",
+    "difficulty": "medium",
+    "options": [
+      "Waterfall Model",
+      "Spiral Model",
+      "Formal Methods Model",
+      "Incremental Model"
+    ],
+    "question": "Which specialized process model in software engineering emphasizes using rigorous mathematical notations for software specification, development, and verification?",
+    "question-number": 9
+  },
+  {
+    "answer": "Component-Based Development",
+    "difficulty": "medium",
+    "options": [
+      "Waterfall Model",
+      "Spiral Model",
+      "Agile Development",
+      "Component-Based Development"
+    ],
+    "question": "Which software development model emphasizes the use of pre-built, reusable software modules or components?",
+    "question-number": 10
+  },
+  {
+    "answer": "Keep It Simple, Stupid",
+    "difficulty": "easy",
+    "options": [
+      "Maintain the Vision",
+      "What You Produce, Others Will Consume",
+      "Be Open to the Future",
+      "Keep It Simple, Stupid"
+    ],
+    "question": "What does the KISS principle stand for in software engineering?",
+    "question-number": 11
+  },
+  {
+    "answer": "A software system should be designed to adapt to future changes and avoid limitations",
+    "difficulty": "medium",
+    "options": [
+      "A software system should be designed to adapt to future changes and avoid limitations",
+      "Software development should strictly adhere to initial plans without deviation",
+      "Complexity in software design is always preferable for advanced functionality",
+      "User feedback should be disregarded in the latter stages of development"
+    ],
+    "question": "In the context of software engineering principles, what does 'Be Open to the Future' imply?",
+    "question-number": 12
+  },
+  {
+    "answer": "True",
+    "difficulty": "easy",
+    "options": [
+      "True",
+      "False"
+    ],
+    "question": "Software engineering emphasizes creating a quality product, not just churning out documentation?",
+    "question-number": 13
+  },
+  {
+    "answer": "Adding more programmers to a delayed project will always expedite its completion",
+    "difficulty": "easy",
+    "options": [
+      "Adding more programmers to a delayed project will always expedite its completion",
+      "Comprehensive and unchanging software requirements are always clear from the start",
+      "Outsourcing software development absolves the contracting company of all management responsibility",
+      "Software development can be compared to a manufacturing process with predictable outcomes"
+    ],
+    "question": "Which of the following is considered a 'Management Myth' in software engineering?",
+    "question-number": 14
+  },
+  {
+    "answer": "Flexibility, Extensibility, and Speed",
+    "difficulty": "hard",
+    "options": [
+      "Planning and Control",
+      "Documentation and Rigidity",
+      "Flexibility, Extensibility, and Speed",
+      "Cost and Effort Minimization"
+    ],
+    "question": "While striving for high quality, what are evolutionary software processes specifically designed to emphasize?",
+    "question-number": 15
+  },
+  {
+    "answer": "A concrete, fully functional software product that can be released to users",
+    "difficulty": "medium",
+    "options": [
+      "A design specification document detailing the system's architecture",
+      "A concrete, fully functional software product that can be released to users",
+      "A set of user stories describing desired features",
+      "A test plan outlining various testing scenarios"
+    ],
+    "question": "In the Incremental Model of software development, what does each 'increment' ideally represent?",
+    "question-number": 16
+  },
+  {
+    "answer": "Technical reviews",
+    "difficulty": "medium",
+    "options": [
+      "Formal verification methods",
+      "User acceptance testing",
+      "Technical reviews",
+      "Code analysis tools"
+    ],
+    "question": "Which quality assurance mechanism in software engineering is considered highly effective for early defect detection, even before the software is fully functional?",
+    "question-number": 17
+  },
+  {
+    "answer": "It allows parallel development and exploration of different aspects of a software system",
+    "difficulty": "hard",
+    "options": [
+      "It enforces a strict linear progression of software development activities",
+      "It eliminates the need for communication and collaboration in a development team",
+      "It allows parallel development and exploration of different aspects of a software system",
+      "It focuses solely on code development and disregards design and documentation"
+    ],
+    "question": "What is the primary advantage of using a Concurrent Model in software development?",
+    "question-number": 18
+  },
+  {
+    "answer": "A process pattern in software engineering is a rigid, step-by-step solution to a specific problem that must be followed precisely",
+    "difficulty": "medium",
+    "options": [
+      "A process pattern in software engineering provides a generalized template or approach to address recurring problems in a software development process",
+      "A process pattern in software engineering is a rigid, step-by-step solution to a specific problem that must be followed precisely",
+      "Process patterns are only applicable to the Waterfall Model of software development",
+      "Process patterns primarily focus on coding standards and best practices, ignoring broader process concerns"
+    ],
+    "question": "How would you best describe a 'Process Pattern' in software engineering?",
+    "question-number": 19
+  },
+  {
+    "answer": "To objectively evaluate and understand the strengths and weaknesses of existing software development processes",
+    "difficulty": "hard",
+    "options": [
+      "To enforce a specific software development methodology on all projects within an organization",
+      "To eliminate the need for process improvement by providing a one-size-fits-all solution",
+      "To objectively evaluate and understand the strengths and weaknesses of existing software development processes",
+      "To primarily focus on the technical aspects of software development, neglecting process-related concerns"
+    ],
+    "question": "What is the fundamental purpose of 'Process Assessment' in the context of software engineering?",
+    "question-number": 20
+  }
+]

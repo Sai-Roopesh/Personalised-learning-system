@@ -4,6 +4,7 @@ import json
 from dotenv import load_dotenv
 from pdfminer.high_level import extract_text
 
+
 load_dotenv()
 # Set your Vertex AI project ID
 project_id = "gemini-practice-sai"
@@ -45,9 +46,11 @@ def prompt(model, prompt, response_schema):
 
 pdf_filepath = r"notes/SE-M1.pdf"
 text = pdf2text(pdf_filepath)
-# Example prompt text (modify as needed)
-prompt_text = f"Generate quiz questions for the given context: {text} with options and correct answers from the options generated."
+number_of_quiz_questions = 20
 
+
+# Example prompt text (modify as needed)
+prompt_text = f"Generate {number_of_quiz_questions} quiz questions for the given context: {text} with options and correct answers from the options generated. The question should start from being easy then medium and later hard difficulty."
 # Example usage:
 # Replace 'gemini-1.5-pro-001' with your actual model identifier
 prompted_response = prompt(
