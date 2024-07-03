@@ -43,7 +43,7 @@ def prompt(model, prompt, response_schema):
     return response
 
 
-pdf_filepath = r"SE-M1.pdf"
+pdf_filepath = r"notes/SE-M1.pdf"
 text = pdf2text(pdf_filepath)
 # Example prompt text (modify as needed)
 prompt_text = f"Generate quiz questions for the given context: {text} with options and correct answers from the options generated."
