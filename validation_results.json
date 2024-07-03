@@ -1,142 +1,37 @@
 [
     {
         "question-number": 1,
-        "question": "\"Software is developed or manufactured in the classical sense.\" Is this statement true or false?",
-        "correct_answer": "False",
-        "user_answer": "False",
-        "is_correct": true
+        "question": "What are the three characteristics of Software?",
+        "correct_answer": "Software is engineered not manufactured, software doesn't wear out and software is custom built",
+        "user_answer": "Software is engineered not manufactured, software wears out and software is custom built",
+        "is_correct": false
     },
     {
         "question-number": 2,
-        "question": "Software engineering focuses on designing, writing, testing, implementing, and maintaining software systems.",
-        "correct_answer": "True",
-        "user_answer": "False",
+        "question": "What is the definition of a Process in software engineering? ",
+        "correct_answer": "A process is a collection of activities, actions and tasks that are performed when some work product is to be created",
+        "user_answer": "A process is a collection of activities, actions and tasks that are performed when some work product is to be built",
         "is_correct": false
     },
     {
         "question-number": 3,
-        "question": "What is a primary goal of software engineering?",
-        "correct_answer": "Delivering fault-free software",
-        "user_answer": "Delaying software releases",
-        "is_correct": false
+        "question": "Which software development model makes use of rigorous mathematical notation for specification, development, and verification? ",
+        "correct_answer": "Formal Methods model",
+        "user_answer": "Formal Methods model",
+        "is_correct": true
     },
     {
         "question-number": 4,
-        "question": "Which of the following factors contributes to the need for software engineering?",
-        "correct_answer": "Dynamic Nature",
-        "user_answer": "Static Requirements",
+        "question": "What are the primary goals of Software Engineering? ",
+        "correct_answer": "To improve the quality of software products, increase the productivity and give job satisfaction to software engineers",
+        "user_answer": "To improve the quality of software products, decrease the productivity and give job satisfaction to software engineers",
         "is_correct": false
     },
     {
         "question-number": 5,
-        "question": "What dual role does software play?",
-        "correct_answer": "Both a product and a vehicle for delivering a product",
-        "user_answer": "Both a product and a vehicle for delivering a product",
-        "is_correct": true
-    },
-    {
-        "question-number": 6,
-        "question": "What is the difference between software and a program?",
-        "correct_answer": "Software is a collection of executable code, associated libraries, and documentation, while a program is just executable code for a specific purpose.",
-        "user_answer": "A program is a broader term encompassing software, libraries, and documentation",
-        "is_correct": false
-    },
-    {
-        "question-number": 7,
-        "question": "What does it mean that \"Software doesn\u2019t wear out\"?",
-        "correct_answer": "Software doesn't wear out like physical products, but it can become outdated or deteriorate in performance without proper maintenance",
-        "user_answer": "Software wears out only if it is heavily used",
-        "is_correct": false
-    },
-    {
-        "question-number": 8,
-        "question": "Which category of software directly interacts with computer hardware and is characterized by heavy usage by multiple users?",
-        "correct_answer": "System Software",
-        "user_answer": "Web Applications",
-        "is_correct": false
-    },
-    {
-        "question-number": 9,
-        "question": "What is product-line software?",
-        "correct_answer": "A software system designed to be used by many different customers",
-        "user_answer": "Software that is embedded within hardware",
-        "is_correct": false
-    },
-    {
-        "question-number": 10,
-        "question": "What is legacy software?",
-        "correct_answer": "Legacy software is typically old, but it is critical to business operations and often requires maintenance and adaptation to new technologies.",
-        "user_answer": "Legacy software is typically old, but it is critical to business operations and often requires maintenance and adaptation to new technologies.",
-        "is_correct": true
-    },
-    {
-        "question-number": 11,
-        "question": "What is one common reason for legacy systems to evolve?",
-        "correct_answer": "The software must be adapted to meet the needs of new computing environments or technologies",
-        "user_answer": "The software must be adapted to meet the needs of new computing environments or technologies",
-        "is_correct": true
-    },
-    {
-        "question-number": 12,
-        "question": "Web applications must prioritize which attribute to avoid users going elsewhere for similar services?",
-        "correct_answer": "Performance",
-        "user_answer": "Performance",
-        "is_correct": true
-    },
-    {
-        "question-number": 13,
-        "question": "Why is security a crucial consideration for WebApps?",
-        "correct_answer": "Security is a major concern for WebApps as they are accessible over a network, making it challenging to control access and protect sensitive data",
-        "user_answer": "WebApps are inherently secure due to their network-centric nature",
-        "is_correct": false
-    },
-    {
-        "question-number": 14,
-        "question": "Software engineering emphasizes developing products using well-defined, scientific...",
-        "correct_answer": "Engineering principles and methods",
-        "user_answer": "Intuition and guesswork",
-        "is_correct": false
-    },
-    {
-        "question-number": 15,
-        "question": "How does IEEE define software engineering?",
-        "correct_answer": "A systematic, disciplined, and quantifiable approach to software development, operation, and maintenance",
-        "user_answer": "A set of rules only applicable to large software projects",
-        "is_correct": false
-    },
-    {
-        "question-number": 16,
-        "question": "What is the bedrock of any successful software engineering approach?",
-        "correct_answer": "Quality focus",
-        "user_answer": "Quality focus",
-        "is_correct": true
-    },
-    {
-        "question-number": 17,
-        "question": "In the context of software engineering, a process is NOT...",
-        "correct_answer": "A rigid and inflexible set of steps that must be followed precisely",
-        "user_answer": "A rigid and inflexible set of steps that must be followed precisely",
-        "is_correct": true
-    },
-    {
-        "question-number": 18,
-        "question": "In which framework activity is the software delivered to the customer for evaluation?",
-        "correct_answer": "Deployment",
-        "user_answer": "Deployment",
-        "is_correct": true
-    },
-    {
-        "question-number": 19,
-        "question": "Which umbrella activity assesses potential problems that might impact the project or the quality of the software?",
-        "correct_answer": "Risk Management",
-        "user_answer": "Relying solely on intuition",
-        "is_correct": false
-    },
-    {
-        "question-number": 20,
-        "question": "What is the most important takeaway from the \"essence of software engineering practice\"?",
-        "correct_answer": "Understanding the problem and planning a solution before coding",
-        "user_answer": "Ignoring code quality and focusing solely on speed",
+        "question": "What are the concerns about applying the Formal Methods Model in a business environment? ",
+        "correct_answer": "The development of formal models is currently time consuming and expensive, Few developers have the required formal methods background and The models are difficult to use as a communication mechanism for non-technical customers",
+        "user_answer": "The development of formal models is currently fast and cheap, Few developers have the required formal methods background and The models are difficult to use as a communication mechanism for non-technical customers",
         "is_correct": false
     }
 ]

@@ -13,7 +13,7 @@ project_id = "gemini-practice-sai"
 vertexai.init(project=project_id, location="us-central1")
 
 # Load the response schema from JSON file
-json_file = 'response-schema.json'
+response_schema = 'quiz_generator_response-schema.json'
 
 
 def pdf2text(filepath):
@@ -26,7 +26,7 @@ def load_json(file_path):
     return json_data
 
 
-response_schema = load_json(json_file)
+response_schema_file = load_json(response_schema)
 
 # Function to prompt the generative model with a given prompt and schema
 
@@ -37,7 +37,7 @@ def quiz_generator(model, prompt, response_schema):
     response = model_instance.generate_content(
         prompt,
         generation_config=GenerationConfig(
-            response_mime_type="application/json", response_schema=response_schema
+            response_mime_type="application/json", response_schema=response_schema_file
         ),
     )
 
@@ -46,7 +46,7 @@ def quiz_generator(model, prompt, response_schema):
 
 pdf_filepath = r"notes/SE-M1.pdf"
 text = pdf2text(pdf_filepath)
-number_of_quiz_questions = 20
+number_of_quiz_questions = 5
 
 
 # Example prompt text (modify as needed)
