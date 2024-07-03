@@ -36,7 +36,7 @@ def prompt(model, prompt_text):
 
 
 def json_to_html(json_file, model):
-    prompt_text = f"Here is the json content: {json_file} convert this into beautiful and easily understandable, ready html with appropriate styles, generate pure html no unwanted strings like 'text' and backticks at the beginning and end"
+    prompt_text = f"Here is the json content: {json_file} convert this into beautiful and easily understandable, ready html with appropriate styles"
     return prompt(model, prompt_text)
 
 # Function to write HTML content to a file
