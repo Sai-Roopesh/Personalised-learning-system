@@ -1,0 +1,238 @@
+[
+    {
+        "answer": "False",
+        "difficulty": "easy",
+        "options": [
+            "True",
+            "False"
+        ],
+        "question": "\"Software is developed or manufactured in the classical sense.\" Is this statement true or false?",
+        "question-number": 1
+    },
+    {
+        "answer": "True",
+        "difficulty": "easy",
+        "options": [
+            "True",
+            "False"
+        ],
+        "question": "Software engineering focuses on designing, writing, testing, implementing, and maintaining software systems.",
+        "question-number": 2
+    },
+    {
+        "answer": "Delivering fault-free software",
+        "difficulty": "easy",
+        "options": [
+            "Maximizing software development costs",
+            "Delivering fault-free software",
+            "Ignoring client requirements",
+            "Delaying software releases"
+        ],
+        "question": "What is a primary goal of software engineering?",
+        "question-number": 3
+    },
+    {
+        "answer": "Dynamic Nature",
+        "difficulty": "easy",
+        "options": [
+            "Small Software Size",
+            "Static Requirements",
+            "Unlimited Budgets",
+            "Dynamic Nature"
+        ],
+        "question": "Which of the following factors contributes to the need for software engineering?",
+        "question-number": 4
+    },
+    {
+        "answer": "Both a product and a vehicle for delivering a product",
+        "difficulty": "medium",
+        "options": [
+            "Only a vehicle for delivering a product",
+            "Neither a product nor a vehicle",
+            "Both a product and a vehicle for delivering a product",
+            "Only a physical product"
+        ],
+        "question": "What dual role does software play?",
+        "question-number": 5
+    },
+    {
+        "answer": "Software is a collection of executable code, associated libraries, and documentation, while a program is just executable code for a specific purpose.",
+        "difficulty": "medium",
+        "options": [
+            "Software and program are interchangeable terms with no difference",
+            "Software is a collection of executable code, associated libraries, and documentation, while a program is just executable code for a specific purpose.",
+            "A program is a broader term encompassing software, libraries, and documentation",
+            "Software only refers to documentation, while a program refers to code"
+        ],
+        "question": "What is the difference between software and a program?",
+        "question-number": 6
+    },
+    {
+        "answer": "Software doesn't wear out like physical products, but it can become outdated or deteriorate in performance without proper maintenance",
+        "difficulty": "medium",
+        "options": [
+            "Software wears out over time just like any physical product",
+            "Software doesn't wear out like physical products, but it can become outdated or deteriorate in performance without proper maintenance",
+            "Software wears out only if it is heavily used",
+            "Software doesn't wear out and always remains as efficient as the day it was created"
+        ],
+        "question": "What does it mean that \"Software doesn\u2019t wear out\"?",
+        "question-number": 7
+    },
+    {
+        "answer": "System Software",
+        "difficulty": "medium",
+        "options": [
+            "Application Software",
+            "Embedded Software",
+            "Web Applications",
+            "System Software"
+        ],
+        "question": "Which category of software directly interacts with computer hardware and is characterized by heavy usage by multiple users?",
+        "question-number": 8
+    },
+    {
+        "answer": "A software system designed to be used by many different customers",
+        "difficulty": "medium",
+        "options": [
+            "Software specifically designed for a single user",
+            "A software system designed to be used by many different customers",
+            "Software that is embedded within hardware",
+            "Software designed for artificial intelligence applications"
+        ],
+        "question": "What is product-line software?",
+        "question-number": 9
+    },
+    {
+        "answer": "Legacy software is typically old, but it is critical to business operations and often requires maintenance and adaptation to new technologies.",
+        "difficulty": "hard",
+        "options": [
+            "Legacy software refers to any software system that is no longer in use",
+            "Legacy software is typically old, but it is critical to business operations and often requires maintenance and adaptation to new technologies.",
+            "Legacy software is always outdated and should be immediately replaced",
+            "Legacy software is a modern approach to software development"
+        ],
+        "question": "What is legacy software?",
+        "question-number": 10
+    },
+    {
+        "answer": "The software must be adapted to meet the needs of new computing environments or technologies",
+        "difficulty": "hard",
+        "options": [
+            "The software is no longer needed by the business",
+            "The software must be adapted to meet the needs of new computing environments or technologies",
+            "The development team wants to try a new programming language",
+            "The software has become too efficient and needs to be slowed down"
+        ],
+        "question": "What is one common reason for legacy systems to evolve?",
+        "question-number": 11
+    },
+    {
+        "answer": "Performance",
+        "difficulty": "hard",
+        "options": [
+            "Offline accessibility",
+            "Predictable load",
+            "Single-user access",
+            "Performance"
+        ],
+        "question": "Web applications must prioritize which attribute to avoid users going elsewhere for similar services?",
+        "question-number": 12
+    },
+    {
+        "answer": "Security is a major concern for WebApps as they are accessible over a network, making it challenging to control access and protect sensitive data",
+        "difficulty": "hard",
+        "options": [
+            "Security is not a significant concern for WebApps because they are not typically used for sensitive data",
+            "Security is a major concern for WebApps as they are accessible over a network, making it challenging to control access and protect sensitive data",
+            "Security measures for WebApps are standard and easy to implement",
+            "WebApps are inherently secure due to their network-centric nature"
+        ],
+        "question": "Why is security a crucial consideration for WebApps?",
+        "question-number": 13
+    },
+    {
+        "answer": "Engineering principles and methods",
+        "difficulty": "easy",
+        "options": [
+            "Trial and error",
+            "Engineering principles and methods",
+            "Intuition and guesswork",
+            "Copying existing software"
+        ],
+        "question": "Software engineering emphasizes developing products using well-defined, scientific...",
+        "question-number": 14
+    },
+    {
+        "answer": "A systematic, disciplined, and quantifiable approach to software development, operation, and maintenance",
+        "difficulty": "easy",
+        "options": [
+            "A random and unstructured approach to coding",
+            "A process that prioritizes speed over quality",
+            "A systematic, disciplined, and quantifiable approach to software development, operation, and maintenance",
+            "A set of rules only applicable to large software projects"
+        ],
+        "question": "How does IEEE define software engineering?",
+        "question-number": 15
+    },
+    {
+        "answer": "Quality focus",
+        "difficulty": "medium",
+        "options": [
+            "Advanced programming languages",
+            "Fast delivery times",
+            "Quality focus",
+            "Large development teams"
+        ],
+        "question": "What is the bedrock of any successful software engineering approach?",
+        "question-number": 16
+    },
+    {
+        "answer": "A rigid and inflexible set of steps that must be followed precisely",
+        "difficulty": "medium",
+        "options": [
+            "A random set of tasks with no clear order",
+            "A suggestion for how to develop software, but open to adaptation",
+            "A rigid and inflexible set of steps that must be followed precisely",
+            "An optional guideline that teams can choose to follow or ignore"
+        ],
+        "question": "In the context of software engineering, a process is NOT...",
+        "question-number": 17
+    },
+    {
+        "answer": "Deployment",
+        "difficulty": "medium",
+        "options": [
+            "Planning",
+            "Modeling",
+            "Deployment",
+            "Construction"
+        ],
+        "question": "In which framework activity is the software delivered to the customer for evaluation?",
+        "question-number": 18
+    },
+    {
+        "answer": "Risk Management",
+        "difficulty": "medium",
+        "options": [
+            "Ignoring potential problems",
+            "Risk Management",
+            "Relying solely on intuition",
+            "Hoping for the best"
+        ],
+        "question": "Which umbrella activity assesses potential problems that might impact the project or the quality of the software?",
+        "question-number": 19
+    },
+    {
+        "answer": "Understanding the problem and planning a solution before coding",
+        "difficulty": "hard",
+        "options": [
+            "Starting to write code immediately without a plan",
+            "Understanding the problem and planning a solution before coding",
+            "Ignoring code quality and focusing solely on speed",
+            "Assuming that all requirements are clear from the start"
+        ],
+        "question": "What is the most important takeaway from the \"essence of software engineering practice\"?",
+        "question-number": 20
+    }
+]

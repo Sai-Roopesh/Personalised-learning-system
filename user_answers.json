@@ -1,0 +1,102 @@
+[
+    {
+        "question-number": 1,
+        "question": "\"Software is developed or manufactured in the classical sense.\" Is this statement true or false?",
+        "answer": "False"
+    },
+    {
+        "question-number": 2,
+        "question": "Software engineering focuses on designing, writing, testing, implementing, and maintaining software systems.",
+        "answer": "False"
+    },
+    {
+        "question-number": 3,
+        "question": "What is a primary goal of software engineering?",
+        "answer": "Delaying software releases"
+    },
+    {
+        "question-number": 4,
+        "question": "Which of the following factors contributes to the need for software engineering?",
+        "answer": "Static Requirements"
+    },
+    {
+        "question-number": 5,
+        "question": "What dual role does software play?",
+        "answer": "Both a product and a vehicle for delivering a product"
+    },
+    {
+        "question-number": 6,
+        "question": "What is the difference between software and a program?",
+        "answer": "A program is a broader term encompassing software, libraries, and documentation"
+    },
+    {
+        "question-number": 7,
+        "question": "What does it mean that \"Software doesn\u2019t wear out\"?",
+        "answer": "Software wears out only if it is heavily used"
+    },
+    {
+        "question-number": 8,
+        "question": "Which category of software directly interacts with computer hardware and is characterized by heavy usage by multiple users?",
+        "answer": "Web Applications"
+    },
+    {
+        "question-number": 9,
+        "question": "What is product-line software?",
+        "answer": "Software that is embedded within hardware"
+    },
+    {
+        "question-number": 10,
+        "question": "What is legacy software?",
+        "answer": "Legacy software is typically old, but it is critical to business operations and often requires maintenance and adaptation to new technologies."
+    },
+    {
+        "question-number": 11,
+        "question": "What is one common reason for legacy systems to evolve?",
+        "answer": "The software must be adapted to meet the needs of new computing environments or technologies"
+    },
+    {
+        "question-number": 12,
+        "question": "Web applications must prioritize which attribute to avoid users going elsewhere for similar services?",
+        "answer": "Performance"
+    },
+    {
+        "question-number": 13,
+        "question": "Why is security a crucial consideration for WebApps?",
+        "answer": "WebApps are inherently secure due to their network-centric nature"
+    },
+    {
+        "question-number": 14,
+        "question": "Software engineering emphasizes developing products using well-defined, scientific...",
+        "answer": "Intuition and guesswork"
+    },
+    {
+        "question-number": 15,
+        "question": "How does IEEE define software engineering?",
+        "answer": "A set of rules only applicable to large software projects"
+    },
+    {
+        "question-number": 16,
+        "question": "What is the bedrock of any successful software engineering approach?",
+        "answer": "Quality focus"
+    },
+    {
+        "question-number": 17,
+        "question": "In the context of software engineering, a process is NOT...",
+        "answer": "A rigid and inflexible set of steps that must be followed precisely"
+    },
+    {
+        "question-number": 18,
+        "question": "In which framework activity is the software delivered to the customer for evaluation?",
+        "answer": "Deployment"
+    },
+    {
+        "question-number": 19,
+        "question": "Which umbrella activity assesses potential problems that might impact the project or the quality of the software?",
+        "answer": "Relying solely on intuition"
+    },
+    {
+        "question-number": 20,
+        "question": "What is the most important takeaway from the \"essence of software engineering practice\"?",
+        "answer": "Ignoring code quality and focusing solely on speed"
+    }
+]

@@ -1,0 +1,97 @@
+basic ui for user answering the quizzes-
+import json
+import streamlit as st
+
+# Load the generated quiz from JSON file
+json_file = 'response.json'
+
+def load_json(file_path):
+    with open(file_path, 'r') as f:
+        json_data = json.load(f)
+    return json_data
+
+quiz_data = load_json(json_file)
+
+st.title("Quiz App")
+
+user_answers = {}
+for idx, q in enumerate(quiz_data['questions']):
+    st.subheader(f"Question {idx + 1}: {q['question']}")
+    options = q['choices']
+    user_answers[q['question']] = st.radio("Choose an answer:", options)
+
+if st.button('Submit Answers'):
+    st.write("Answers submitted successfully!")
+    with open('user_answers.json', 'w') as f:
+        json.dump(user_answers, f)
+
+
+
+
+-----------------------
+
+
+
+
+
+quiz-validator.py-
+import json
+import vertexai
+from vertexai.generative_models import GenerationConfig, GenerativeModel
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# Set your Vertex AI project ID
+project_id = "gemini-practice-sai"
+vertexai.init(project=project_id, location="us-central1")
+
+# Load the generated quiz and user answers from JSON files
+quiz_file = 'response.json'
+user_answers_file = 'user_answers.json'
+
+def load_json(file_path):
+    with open(file_path, 'r') as f:
+        json_data = json.load(f)
+    return json_data
+
+quiz_data = load_json(quiz_file)
+user_answers = load_json(user_answers_file)
+
+# Function to prompt the generative model with a given prompt
+def prompt(model, prompt_text):
+    model_instance = GenerativeModel(model)
+    response = model_instance.generate_content(
+        prompt_text,
+        generation_config=GenerationConfig(response_mime_type="application/json")
+    )
+    return response.text
+
+# Validate user answers
+results = []
+for question_data in quiz_data['questions']:
+    question = question_data['question']
+    correct_answer = question_data['answer']
+    user_answer = user_answers.get(question)
+    if user_answer:
+        result = {
+            "question": question,
+            "correct_answer": correct_answer,
+            "user_answer": user_answer,
+            "is_correct": user_answer == correct_answer
+        }
+        results.append(result)
+
+# Generate a validation prompt for the LLM
+validation_prompt = f"Validate the following user answers based on the correct answers:\n{json.dumps(results, indent=2)}"
+
+# Example usage with Vertex AI's generative model
+model_name = 'gemini-1.5-pro-001'
+validation_response = prompt(model_name, validation_prompt)
+
+# Print the validation response
+print(validation_response)
+
+# Optionally, save the validation results
+with open('validation_results.json', 'w') as f:
+    json.dump(results, f)

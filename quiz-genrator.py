@@ -31,7 +31,7 @@ response_schema = load_json(json_file)
 # Function to prompt the generative model with a given prompt and schema
 
 
-def prompt(model, prompt, response_schema):
+def quiz_generator(model, prompt, response_schema):
     model_instance = GenerativeModel(model)
 
     response = model_instance.generate_content(
@@ -50,12 +50,17 @@ number_of_quiz_questions = 20
 
 
 # Example prompt text (modify as needed)
+
+# the prompt is generating in such a fashion that the first option is always the correct answer. We need to change it. We need to randomise the correct answers position.
+
 prompt_text = f"Generate {number_of_quiz_questions} quiz questions for the given context: {text} with options and correct answers from the options generated. The question should start from being easy then medium and later hard difficulty."
+
 # Example usage:
 # Replace 'gemini-1.5-pro-001' with your actual model identifier
-prompted_response = prompt(
+quizes = quiz_generator(
     'gemini-1.5-pro-001', prompt_text, response_schema
 )
 
-# Print the generated response
-print(prompted_response.text)
+quizes_output_file = 'generated_quizzes.json'
+with open(quizes_output_file, 'w') as f:
+    json.dump(json.loads(quizes.text), f, indent=4)
